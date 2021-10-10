@@ -14,7 +14,7 @@ public class Test
 @Autowired
 private UserRepository userRepository;
 
-@PostMapping(path="/add") // Map ONLY POST Requests
+@PostMapping(path="/add")
 public @ResponseBody String addNewUser (@RequestParam String name
     , @RequestParam String email) {
 
